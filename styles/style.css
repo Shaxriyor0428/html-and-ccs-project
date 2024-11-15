@@ -149,6 +149,7 @@ img {
   margin-top: 50px;
   display: flex;
   gap: 9px;
+  overflow: auto;
 }
 
 .product__items,
