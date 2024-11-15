@@ -216,7 +216,7 @@ footer .footer__wrapper {
 
 .footer_p {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 17.5px;
   color: #263238;
 }
 
@@ -227,6 +227,7 @@ footer .footer__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #ffffff;
 }
 .footer__fontstyle {
@@ -288,5 +289,18 @@ footer .footer__wrapper {
     padding-top: 10px;
     font-size: 12px;
     line-height: 20px;
+  }
+  .left {
+    font-size: 20px;
+  }
+  .right {
+    font-size: 20px;
+  }
+  .footer_p {
+    font-size: 14px;
+  }
+  .footer__wrapper {
+    flex-wrap: wrap;
+    gap: 0;
   }
 }
