@@ -139,10 +139,55 @@ img {
   line-height: 27px;
   color: #ee4248;
 }
-
-.main__content__three {
+.product__title {
+  padding-top: 50px;
+  color: #30444e;
+  text-align: center;
 }
 
+.product__wrapper {
+  margin-top: 50px;
+  display: flex;
+  gap: 9px;
+}
+
+.product__items,
+.service__items,
+.technology__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 360px;
+  gap: 15px;
+  padding: 10px 10px 0 10px;
+}
+
+.product__items__names {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 37px;
+  color: #ee4248;
+}
+
+.product__paragraph {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #30444e;
+}
+
+.product__btn {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  background: #ee4248;
+  border: none;
+  border-radius: 5px;
+  height: 42px;
+  width: 120px;
+  cursor: pointer;
+}
 @media (max-width: 1000px) {
   .main__image {
     object-fit: cover;
