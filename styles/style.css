@@ -295,11 +295,14 @@ footer .footer__wrapper {
   }
   .right {
     font-size: 20px;
+    margin: 0;
+    padding: 0;
   }
   .footer_p {
     font-size: 14px;
   }
   .footer__wrapper {
+    display: flex;
     flex-wrap: wrap;
     gap: 0;
   }
