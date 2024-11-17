@@ -118,6 +118,12 @@ img {
   transform: translateY(-60px);
 }
 
+.product__wrapper::-webkit-scrollbar {
+  width: 5px;
+}
+.product__wrapper::-webkit-scrollbar-thumb {
+  background: gold;
+}
 .main__content__one {
   font-weight: 500;
   font-size: 32px;
