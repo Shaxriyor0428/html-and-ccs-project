@@ -91,6 +91,7 @@ img {
   padding: 12px 32px;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 .red {
   color: #ee4248;
