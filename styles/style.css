@@ -93,6 +93,15 @@ img {
   border-radius: 5px;
   cursor: pointer;
 }
+.hero__btn:hover{
+  background: rgb(70, 70, 207);
+  transform: scale(1.1);
+  transition: all .3s ease;
+}
+.hero__btn:active{
+  background:rgb(118, 156, 62) ;
+}
+
 .red {
   color: #ee4248;
 }
