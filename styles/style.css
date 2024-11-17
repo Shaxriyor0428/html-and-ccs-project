@@ -286,7 +286,7 @@ footer .footer__wrapper {
     transition: all 0.2 ease;
   }
   .navbar__items.opened {
-    top: 100px;
+    top: 70px;
   }
 
   .navbar__icons {
