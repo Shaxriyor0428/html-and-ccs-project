@@ -120,6 +120,7 @@ img {
 
 .product__wrapper::-webkit-scrollbar {
   width: 5px;
+  height: 5px;
 }
 .product__wrapper::-webkit-scrollbar-thumb {
   background: gold;
