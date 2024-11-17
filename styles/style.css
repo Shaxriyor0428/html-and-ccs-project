@@ -24,7 +24,6 @@ img {
 }
 
 .navbar {
-  position: relative;
   height: 100px;
   width: 100%;
   display: flex;
@@ -33,13 +32,24 @@ img {
   margin-bottom: 50px;
 }
 
+.about__navbar__icon {
+  cursor: pointer;
+}
 .navbar__items {
   display: flex;
   gap: 50px;
 }
+.navbar__item:hover {
+  text-decoration: underline;
+}
+
 .navbar__icons {
   display: flex;
   gap: 22px;
+}
+
+.navbar__icons img {
+  cursor: pointer;
 }
 .menu {
   position: absolute;
@@ -235,6 +245,7 @@ footer .footer__wrapper {
   font-size: 18px;
   color: #ffffff;
 }
+
 @media (max-width: 1000px) {
   .main__image {
     object-fit: cover;
@@ -261,7 +272,23 @@ footer .footer__wrapper {
   }
 }
 @media (max-width: 768px) {
-  .navbar__items,
+  .navbar__items {
+    position: absolute;
+    top: 100px;
+    right: -100%;
+    width: 250px;
+    height: auto;
+    padding: 20px 20px 20px 40px;
+    gap: 40px 0;
+    background: rgba(255, 255, 255, 0.945);
+    flex-direction: column;
+    border: 1px solid rgba(62, 57, 57, 0.338);
+    transition: all 0.2 ease;
+  }
+  .navbar__items.opened {
+    right: 0;
+  }
+
   .navbar__icons {
     display: none;
   }
